@@ -1,0 +1,26 @@
+{
+  "name": "es6-base",
+  "version": "1.0.0",
+  "description": "Node ES6 project base",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrejsx/node-es6-base.git"
+  },
+  "author": "Alexandre Queiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrejsx/node-es6-base/issues"
+  },
+  "homepage": "https://github.com/alexandrejsx/node-es6-base#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.0"
+  }
+}
